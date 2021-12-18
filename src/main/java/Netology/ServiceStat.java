@@ -1,14 +1,15 @@
 package Netology;
 
-public class ServiceTest {
+public class ServiceStat {
     public int sumSales(long[] sales) {
-            int sum = 0;
-            for (long sale : sales) {
-                sum += sale;
-            }
-            return sum;
-
+        int sum = 0;
+        for (long sale : sales) {
+            sum += sale;
         }
+        return sum;
+
+    }
+
     public int avgSales(long[] sales) {
         return sumSales(sales) / sales.length;
     }
@@ -51,6 +52,7 @@ public class ServiceTest {
         }
         return quantity;
     }
+
     public int minAvgSales(long[] sales) {
         int quantity = 0;
         int minAvg = avgSales(sales);
