@@ -2,7 +2,7 @@ package Netology;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ServiceTestStat {
+class ServiceStatTest {
 
     @org.junit.jupiter.api.Test
     void sumSales() {
